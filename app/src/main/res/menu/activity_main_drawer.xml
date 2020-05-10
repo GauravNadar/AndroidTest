@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Login Screen" />
+       <!-- <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/create"
+            android:title="Registration Screen" />-->
+        <item
+            android:id="@+id/nav_local_users"
+            android:icon="@drawable/register"
+            android:title="Local Users Screen" />
+        <item
+            android:id="@+id/nav_github_users"
+            android:icon="@drawable/git"
+            android:title="GitHub Users Screen" />
+    </group>
+
+</menu>
